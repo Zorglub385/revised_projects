@@ -1,0 +1,71 @@
+{
+  "imageUrl": "https://lh3.googleusercontent.com/a-/ACNPEu_86kSdZaFgTynVpOC24DJdvxegl59VAoUK21SsSy6zmVzOlDfr3MwzfLhgn7otr-8iXIZXD8LG4Bi6uyAr4DdpGWa7QukJGgd3rINvbZlmntYdaE3efCc0raU5_tL-vxlWjdQ47AUduxn9yaSOs_xridvpbG9iUWcja-eawRpWIWiFFs-n3AZOdU1otUdJGA1Iht2VXDIvLSdX4qil6ORHUjFpwpkRRiw_H_nWhLlfWJcFFcln8u63f4vMz2lZUHzRWwFOWSjD1JrNySxpx9sFijNi3heYe4qIEJDxXaM4nlizGEJwkxVR19D43QKzKnFez0YG4vVaVc9vj2G46CxteX2Eo6-SGffep4548THu1YayZQX8h-alumtmbQ_4ILZwQkgnhuLOvTG7YLpHmtHO4HRZqsbTdudTotGDo2OTULvosiuWRRhJSfp6e44BlCD2fUgqk40v-QJ0ES73SMp7upBpOdLJyDCuWqLIftx0SU-cDYOooUubeOpO5SGLoXyTEvkqxdNQVp6mIGWqDlcOummM5tL7pUvlvn-L6AJ4R-mAbstpDMYXBxLL8S109zyawPCRBP9vVYQEYNusaFAUnlaxurrMDq96mz8t_8M7kSyBtI5ldesMRsRHLhX1GCyr9aE29hGQeFbwM5TmypGe4x-xknA7KjaKd45XetpjftTXNnM4Qt6PJEMcgXGiyHVt2nAktk-O2sFc2C6knnPbdstuRHH3IwRKoxQT61JlwMOTvyGWpiIuu3JPMCv7WRypyys4Zbhy4sLVnwIFyNUwZUn3A2vAg4_vTpHrNxXI9TsTcH6UqJf-mxvB434WJzNURv5YbsJCOQ9z6gqvrY1Igk383iFhOLhczlOqm8u92tCZ6sQfA7GlOfLNys2rdhElsUX2m0FfAnBdOPxS8LmFW-zFWJGOAHYnqV8jgdqeKUbJ0gtjnrKGdx1mvg=s96-c",
+  "zones": [
+    {
+      "points": [
+        {
+          "x": 17,
+          "y": 14.125
+        },
+        {
+          "x": 46,
+          "y": 19.125
+        },
+        {
+          "x": 49,
+          "y": 45.125
+        },
+        {
+          "x": 14,
+          "y": 40.125
+        },
+        {
+          "x": 17,
+          "y": 15.125
+        },
+        {
+          "x": 17,
+          "y": 18.125
+        },
+        {
+          "x": 17,
+          "y": 18.125
+        },
+        {
+          "x": 17,
+          "y": 14.125
+        }
+      ],
+      "question": "1"
+    },
+    {
+      "points": [
+        {
+          "x": 54,
+          "y": 69.125
+        },
+        {
+          "x": 76,
+          "y": 59.125
+        },
+        {
+          "x": 83,
+          "y": 82.125
+        },
+        {
+          "x": 62,
+          "y": 92.125
+        },
+        {
+          "x": 62,
+          "y": 92.125
+        },
+        {
+          "x": 54,
+          "y": 69.125
+        }
+      ],
+      "question": "3"
+    }
+  ]
+}
