@@ -12,6 +12,8 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
 
     - name: Configure Git
       run: |
@@ -21,7 +23,7 @@ jobs:
     - name: Delete Unwanted Files
       run: |
         find . -type f ! -name 'README.md' ! -name 'annonce' -delete
-        find . -type d -empty -delete # Supprime les dossiers vides
+        find . -type d -empty -delete
         git add .
         git commit -m "Cleanup repository - Removed all files except 'annonce' and 'README.md'" || echo "No changes to commit"
 
