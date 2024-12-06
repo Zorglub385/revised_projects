@@ -1,0 +1,30 @@
+name: Cleanup Repository
+
+# Déclenchement : tous les 1er janvier à 00:00 UTC
+on:
+  schedule:
+    - cron: "0 0 1 1 *"
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Étape 1 : Cloner le dépôt
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      # Étape 2 : Supprimer tous les fichiers sauf "annonce" et "README.md"
+      - name: Remove Unwanted Files
+        run: |
+          shopt -s extglob
+          rm -rf !(annonce|README.md)
+
+      # Étape 3 : Confirmer les changements dans Git
+      - name: Commit Changes
+        run: |
+          git config user.name "GitHub Actions Bot"
+          git config user.email "actions@github.com"
+          git add .
+          git commit -m "Cleanup repository - Removed all files except 'annonce' and 'README.md'"
+          git push
